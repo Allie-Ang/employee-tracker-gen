@@ -63,24 +63,4 @@ function viewRoles() {
   });
 }
 
-function viewEmployees() {
-  db.query("SELECT * FROM employee", (err, result) => {
-    if (err) {
-      console.log(err);
-    }
-    console.table(result);
-    menu();
-  });
-}
-
-function addDepartment() {
-  db.query("INSERT INTO department", (err, result) => {
-    if (err) {
-      console.log(err);
-    }
-    console.table(result);
-    menu();
-  });
-}
-
 menu();
