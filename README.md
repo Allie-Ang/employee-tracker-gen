@@ -30,4 +30,5 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ## Preview
 
+<img width="803" alt="Screenshot 2023-01-30 at 4 08 18 PM" src="https://user-images.githubusercontent.com/112665153/215625609-6dd1a52d-ca96-4710-80d2-49d7314c91f3.png">
 
